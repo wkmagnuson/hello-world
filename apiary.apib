@@ -9,20 +9,14 @@ session for me.
 ## Language Collection [/languages]
 
 ### List All Languages [GET]
+Returns a list of all languages supported.
 
 + Response 200 (application/json)
 
         {
-            "choices": [
-                {
-                    "language": "English",
-                    "greeting": "Hello"
-                }, {
-                    "language": "French",
-                    "greeting": "Hello"
-                }, {
-                    "language": "Spanish",
-                    "greeting": "Hola"
-                }
+            "languages": [
+                "language": "English",
+                "language": "French",
+                "language": "Spanish"
             ]
         }
