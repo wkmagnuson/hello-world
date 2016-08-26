@@ -6,23 +6,23 @@ HOST: http://helloworld.bearden.io/
 HelloWorld is my playing around with Apiary. This is the API Blueprint language learning
 session for me.
 
-## Questions Collection [/questions]
+## Language Collection [/languages]
 
-### List All Questions [GET]
+### List All Languages [GET]
 
 + Response 200 (application/json)
 
         {
-            "question": "Favourite programming language?",
             "choices": [
                 {
-                    "choice": "Swift",
-                    "votes": 2048
+                    "language": "English",
+                    "greeting": "Hello"
                 }, {
-                    "choice": "Python",
-                    "votes": 1024
+                    "language": "French",
+                    "greeting": "Hello"
                 }, {
-                    "choice": "Java",
-                    "votes": 4098
+                    "language": "Spanish",
+                    "greeting": "Hola"
+                }
             ]
         }
